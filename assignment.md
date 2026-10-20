@@ -14,7 +14,7 @@ Using the `claim` and `car` tables, write a SQL query to return a table containi
 
 Answer:
 
-```
+```sql
 SELECT
 claim.id, claim.claim_date, claim.travel_time, claim.claim_amt,
 car.car_type, car.car_use
