@@ -28,7 +28,7 @@ Write a SQL query to compute the running total of the `travel_time` column for e
 
 Answer:
 
-```
+```sql
 SELECT
 id, 
 car_id, 
@@ -43,7 +43,7 @@ Using a Common Table Expression (CTE), write a SQL query to return a table conta
 
 Answer:
 
-```
+```sql
 WITH avg_resale AS (
     SELECT 
         id, 
@@ -85,9 +85,9 @@ Before writing any CTEs, answer these questions by running simple queries:
 
 Write those queries here:
 
-```
+```sql
 -- Your exploration queries
-
+SELECT DISTINCT state FROM address
 ```
 
 ---
