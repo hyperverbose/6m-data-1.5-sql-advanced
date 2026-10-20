@@ -14,7 +14,7 @@ Using the `claim` and `car` tables, write a SQL query to return a table containi
 
 Answer:
 
-```sql
+```
 
 ```
 
